@@ -1,0 +1,82 @@
+<html>
+    <header>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            header {
+                background-color: #666;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+            nav {
+                float: left;
+                width: 30%;
+                height: 300px;
+                font-size: 30px;
+                background: #ccc;
+                padding: 20px;
+            }
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            article {
+                float: left;
+                padding: 20px;
+                width: 70%;
+                background-color: #f1f1f1;
+                height: 300px;
+            }
+            footer {
+                background-color: #666;
+                padding: 10px;
+                text-align: center;
+                color: white;
+                font-size: 35px;
+            }
+            section::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            @media (max-width: 600px) {
+                nav, article {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        </style>
+    </header>
+    <body>
+        <h1>CSS Layout</h1>
+        <p>I'm Andy, I'm 19 years old</p>
+        <p>I live in vientiane</p>
+        <header>
+            <h1>Yo what sum</h1>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Androi006</a>
+                    </li>
+                    <li>
+                        <a href="#">Rewly</a>
+                    </li>
+                </ul>
+            </nav>
+            <article>
+                <h1>CSS Layout</h1>
+                <p>I'm Andy, I'm 19 years old</p>
+                <p>I live in vientiane</p>
+                <p>Apex Legends is an online multiplayer battle royale game featuring squads of three players using pre-made characters with distinctive abilities, called "Legends", similar to those of hero shooters. Alternate modes have been introduced allowing for single and for two-player squads since the game's release.</p>
+            </article>
+        </section>
+        <footer>
+            <p>Fuck you</p>
+        </footer>
+    </body>
+</html>
